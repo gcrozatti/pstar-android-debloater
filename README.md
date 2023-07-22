@@ -4,9 +4,9 @@ Bash script to remove system apps, a.k.a Bloatware <br />
 
 # Info
 
-Commercial name: Motorola Edge 20 PRO
-Codename: PSTAR or SIERRA
-Android Version: 13 'Tiramisu'
+Commercial name: Motorola Edge 20 PRO <br />
+Codename: PSTAR or SIERRA <br />
+Android Version: 13 'Tiramisu' <br />
 
 # Dependencies
 
