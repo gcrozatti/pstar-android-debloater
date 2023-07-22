@@ -8,6 +8,24 @@ Commercial name: Motorola Edge 20 PRO <br />
 Codename: PSTAR or SIERRA <br />
 Android Version: 13 'Tiramisu' <br />
 
+# Packages
+
+### Motorola
+Packages I choose to keep: <br />
+Some are 'no-disable' package and need unlocked bootloader <br />
+```
+com.motorola.paks                           
+com.motorola.paks.notification
+com.motorola.android.fota
+com.motorola.enterprise.adapter.service
+com.motorola.android.providers.settings
+com.motorola.imagertuning_V2
+com.motorola.camera3
+com.motorola.launcher3
+com.motorola.camera3.content.ai
+com.motorola.ccc.ota
+```
+
 # Dependencies
 
 Android Plataform Tools <br />
