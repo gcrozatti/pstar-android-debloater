@@ -18,20 +18,20 @@ https://developer.android.com/tools/releases/platform-tools
 ### Unix* Platforms
 
 ```
-./universal-stockROM-debloater.sh
+chmod +x pstar-debloater-android13-stockrom.sh
+./pstar-debloater-android13-stockrom.sh
 ```
 
 ### Windows Platform
 
-- install GIT <br />
-- Add GIT Bash to windows context menu by selecting its option. <br />
-- Right click in the root folder of this cloned repository and select GIT Bash Here. <br />
+- install Git <br />
+- Add Git Bash to windows context menu by selecting its option. <br />
+- Right click in the root folder of this cloned repository and select Git Bash Here. <br />
 
 ```
-chmod +x universal-stockROM-debloater.sh
-
-./universal-stockROM-debloater.sh
+chmod +x pstar-debloater-android13-stockrom.sh
+./pstar-debloater-android13-stockrom.sh
 ```
 
 ### Contribution
-Thanks for https://inatagan.github.io/android-debloater/
+Thanks for original android debloater script: https://inatagan.github.io/android-debloater/
