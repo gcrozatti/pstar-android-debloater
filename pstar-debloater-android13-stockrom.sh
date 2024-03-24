@@ -34,8 +34,8 @@ while [ "$OPTION" != 7 ]; do
         5)
 			echo "Uninstalling Motorola following apps: "
 			
-			adb shell pm uninstall -k --user 0 com.motorola.motocare
-			adb shell pm uninstall -k --user 0 com.motorola.aiservices
+			adb shell pm uninstall -k --user 0 com.motorola.motocare # Moto Care
+			adb shell pm uninstall -k --user 0 com.motorola.aiservices # Moto AI Services
 			adb shell pm uninstall -k --user 0 com.motorola.android.launcher.overlay.upgrades
 			adb shell pm uninstall -k --user 0 com.motorola.att.phone.extensions
 			adb shell pm uninstall -k --user 0 com.motorola.android.provisioning
@@ -61,16 +61,16 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.omadm.vzw
 			adb shell pm uninstall -k --user 0 com.motorola.launcherconfig.overlay.retru
 			adb shell pm uninstall -k --user 0 com.motorola.msimsettings
-			adb shell pm uninstall -k --user 0 com.motorola.securityhub
-			adb shell pm uninstall -k --user 0 com.motorola.ccc.notification
+			adb shell pm uninstall -k --user 0 com.motorola.securityhub #Moto Secure
+			adb shell pm uninstall -k --user 0 com.motorola.ccc.notification # Motorola Hello You
 			adb shell pm uninstall -k --user 0 com.motorola.vzw.pco.extensions.pcoreceiver
-			adb shell pm uninstall -k --user 0 com.motorola.help
+			adb shell pm uninstall -k --user 0 com.motorola.help # Moto Feedback
 			adb shell pm uninstall -k --user 0 com.motorola.android.coresettingsext.overlay.doubletap
 			adb shell pm uninstall -k --user 0 com.motorola.entitlement
 			adb shell pm uninstall -k --user 0 com.motorola.photoeditor
 			adb shell pm uninstall -k --user 0 com.motorola.carriersettingsext
 			adb shell pm uninstall -k --user 0 com.motorola.safetycenter.resources.overlay
-			adb shell pm uninstall -k --user 0 com.motorola.moto
+			adb shell pm uninstall -k --user 0 com.motorola.moto # Moto
 			adb shell pm uninstall -k --user 0 com.motorola.settings
 			adb shell pm uninstall -k --user 0 com.motorola.leanbacklauncher
 			adb shell pm uninstall -k --user 0 com.motorola.omadm.service
@@ -90,7 +90,7 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.attvowifi
 			adb shell pm uninstall -k --user 0 com.motorola.android.launcher.overlay.koodo
 			adb shell pm uninstall -k --user 0 com.motorola.systemserver
-			adb shell pm uninstall -k --user 0 com.motorola.genie
+			adb shell pm uninstall -k --user 0 com.motorola.genie # Ajuda do Dispositivo / Device Help
 			adb shell pm uninstall -k --user 0 com.motorola.motosignature.app
 			adb shell pm uninstall -k --user 0 com.motorola.android.providers.settings.auto_generated_rro_product__
 			adb shell pm uninstall -k --user 0 com.motorola.contacts.preloadcontacts
@@ -101,9 +101,9 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.setup.overlay.gabuttonlefttop
 			adb shell pm uninstall -k --user 0 com.motorola.launcherconfig.overlay.amxar
 			adb shell pm uninstall -k --user 0 com.motorola.freeform
-			adb shell pm uninstall -k --user 0 com.motorola.android.fmradio
+			adb shell pm uninstall -k --user 0 com.motorola.android.fmradio # Radio FM
 			adb shell pm uninstall -k --user 0 com.motorola.launcherconfig.overlay.amxbr
-			adb shell pm uninstall -k --user 0 com.motorola.demo
+			adb shell pm uninstall -k --user 0 com.motorola.demo 
 			adb shell pm uninstall -k --user 0 com.motorola.launcherconfig.overlay.amxcl
 			adb shell pm uninstall -k --user 0 com.motorola.rcsConfigService
 			adb shell pm uninstall -k --user 0 com.motorola.setup.overlay.pai
@@ -111,11 +111,11 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.android.systemui.overlay.usc
 			adb shell pm uninstall -k --user 0 com.motorola.android.settings.overlay.global
 			adb shell pm uninstall -k --user 0 com.motorola.easyprefix
-			adb shell pm uninstall -k --user 0 com.motorola.livewallpaper3
+			adb shell pm uninstall -k --user 0 com.motorola.livewallpaper3 #Moto Interactive Wallpaper
 			adb shell pm uninstall -k --user 0 com.motorola.personalize
 			adb shell pm uninstall -k --user 0 com.motorola.android.settings.overlay.fps.side
-			adb shell pm uninstall -k --user 0 com.motorola.brapps
-			adb shell pm uninstall -k --user 0 com.motorola.gamemode
+			adb shell pm uninstall -k --user 0 com.motorola.brapps #App Box
+			adb shell pm uninstall -k --user 0 com.motorola.gamemode #Moto Gametime
 			adb shell pm uninstall -k --user 0 com.motorola.thermalservice
 			adb shell pm uninstall -k --user 0 com.motorola.systemui.desk
 			adb shell pm uninstall -k --user 0 com.motorola.android.coresettingsext.overlay.pstar
@@ -136,10 +136,10 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.setup
 			adb shell pm uninstall -k --user 0 com.motorola.nfwlocationattribution
 			adb shell pm uninstall -k --user 0 com.motorola.android.launcher.overlay.amx
-			adb shell pm uninstall -k --user 0 com.motorola.mototour
+			adb shell pm uninstall -k --user 0 com.motorola.mototour #Moto Tour
 			adb shell pm uninstall -k --user 0 com.motorola.motosignature2.app
 			adb shell pm uninstall -k --user 0 com.motorola.android.overlay.crystaltalkai
-			adb shell pm uninstall -k --user 0 com.motorola.securevault
+			adb shell pm uninstall -k --user 0 com.motorola.securevault # Secure Folder / Pasta segura
 			adb shell pm uninstall -k --user 0 com.motorola.android.systemui.overlay.tmo
 			adb shell pm uninstall -k --user 0 com.motorola.bach.modemstats
 			adb shell pm uninstall -k --user 0 com.motorola.android.settings.overlay.webcam
@@ -147,46 +147,48 @@ while [ "$OPTION" != 7 ]; do
 			adb shell pm uninstall -k --user 0 com.motorola.revoker.services
 			adb shell pm uninstall -k --user 0 com.motorola.lifetimedata
 			adb shell pm uninstall -k --user 0 com.motorola.mobiledesktop
-			adb shell pm uninstall -k --user 0 com.motorola.spaces
+			adb shell pm uninstall -k --user 0 com.motorola.spaces # Family Space
 			adb shell pm uninstall -k --user 0 com.motorola.enterprise.service
 			adb shell pm uninstall -k --user 0 com.motorola.spectrum.setup.extensions
-			adb shell pm uninstall -k --user 0 com.motorola.timeweatherwidget
+			adb shell pm uninstall -k --user 0 com.motorola.timeweatherwidget # Moto Widget
+			adb shell pm uninstall -k --user 0 com.motorola.fmplayer # Radio FM
+			adb shell pm uninstall -k --user 0 com.motorola.motocit # CQA Test
 			printf 'Success, you can safely remove your device now.'
 		;;
 		
 		6)
 			echo "Uninstalling pre-selected optional apps : "
 			
-			adb shell uninstall -k --user 0 com.facebook.katana # facebook app
-			adb shell uninstall -k --user 0 com.facebook.appmanager # facebook related services
-			adb shell uninstall -k --user 0 com.facebook.services # facebook related services
-			adb shell uninstall -k --user 0 com.facebook.system # facebook related services
-			adb shell uninstall -k --user 0 com.google.android.apps.youtube.music # google music app
-			adb shell uninstall -k --user 0 com.google.android.apps.youtube.music.setupwizard # google music app
-			adb shell uninstall -k --user 0 com.google.android.apps.docs # google drive
-			adb shell uninstall -k --user 0 com.google.android.apps.docs.editors.sheets # google sheets
-			adb shell uninstall -k --user 0 com.google.android.apps.docs.editors.slides # google slides
-			adb shell uninstall -k --user 0 com.google.android.googlequicksearchbox # google app
-			adb shell uninstall -k --user 0 com.google.android.apps.tachyon # google meet
-			adb shell uninstall -k --user 0 com.google.android.apps.podcasts # google podcast
-			adb shell uninstall -k --user 0 com.google.android.apps.chromecast.app # google home
-			adb shell uninstall -k --user 0 com.google.android.apps.magazines # google news
-			adb shell uninstall -k --user 0 com.google.android.apps.walletnfcrel # google wallet
-			adb shell uninstall -k --user 0 com.google.android.apps.photos # google photos
-			adb shell uninstall -k --user 0 com.google.android.apps.subscriptions.red # google one
-			adb shell uninstall -k --user 0 com.google.android.youtube # google youtube system app
-			adb shell uninstall -k --user 0 com.google.android.apps.nbu.files # google files
-			adb shell uninstall -k --user 0 com.google.android.calendar # google calendar
-			adb shell uninstall -k --user 0 com.google.android.apps.fitness # google fit
-			adb shell uninstall -k --user 0 com.google.android.apps.messaging # google messages
-			adb shell uninstall -k --user 0 com.google.android.apps.googleassistant # google assistant
-			adb shell uninstall -k --user 0 com.android.chrome # google chrome
-			adb shell uninstall -k --user 0 com.google.android.apps.maps # google maps
-			adb shell uninstall -k --user 0 com.google.android.gm # google gmail
-			adb shell uninstall -k --user 0 com.google.android.apps.docs # google drive
-			adb shell uninstall -k --user 0 com.google.android.deskclock # google Clock 
-			adb shell uninstall -k --user 0 com.google.android.videos # google TV
-			adb shell uninstall -k --user 0 com.google.android.contacts # Contacts
+			adb shell pm uninstall -k --user 0 com.facebook.katana # facebook app
+			adb shell pm uninstall -k --user 0 com.facebook.appmanager # facebook related services
+			adb shell pm uninstall -k --user 0 com.facebook.services # facebook related services
+			adb shell pm uninstall -k --user 0 com.facebook.system # facebook related services
+			adb shell pm uninstall -k --user 0 com.google.android.apps.youtube.music # google music app
+			adb shell pm uninstall -k --user 0 com.google.android.apps.youtube.music.setupwizard # google music app
+			adb shell pm uninstall -k --user 0 com.google.android.apps.docs # google drive
+			adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.sheets # google sheets
+			adb shell pm uninstall -k --user 0 com.google.android.apps.docs.editors.slides # google slides
+			adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox # google app
+			adb shell pm uninstall -k --user 0 com.google.android.apps.tachyon # google meet
+			adb shell pm uninstall -k --user 0 com.google.android.apps.podcasts # google podcast
+			adb shell pm uninstall -k --user 0 com.google.android.apps.chromecast.app # google home
+			adb shell pm uninstall -k --user 0 com.google.android.apps.magazines # google news
+			adb shell pm uninstall -k --user 0 com.google.android.apps.walletnfcrel # google wallet
+			adb shell pm uninstall -k --user 0 com.google.android.apps.photos # google photos
+			adb shell pm uninstall -k --user 0 com.google.android.apps.subscriptions.red # google one
+			adb shell pm uninstall -k --user 0 com.google.android.youtube # google youtube system app
+			adb shell pm uninstall -k --user 0 com.google.android.apps.nbu.files # google files
+			adb shell pm uninstall -k --user 0 com.google.android.calendar # google calendar
+			adb shell pm uninstall -k --user 0 com.google.android.apps.fitness # google fit
+			adb shell pm uninstall -k --user 0 com.google.android.apps.messaging # google messages
+			adb shell pm uninstall -k --user 0 com.google.android.apps.googleassistant # google assistant
+			adb shell pm uninstall -k --user 0 com.android.chrome # google chrome
+			adb shell pm uninstall -k --user 0 com.google.android.apps.maps # google maps
+			adb shell pm uninstall -k --user 0 com.google.android.gm # google gmail
+			adb shell pm uninstall -k --user 0 com.google.android.apps.docs # google drive
+			adb shell pm uninstall -k --user 0 com.google.android.deskclock # google Clock 
+			adb shell pm uninstall -k --user 0 com.google.android.videos # google TV
+			adb shell pm uninstall -k --user 0 com.google.android.contacts # Contacts
 			printf 'Success, you can safely remove your device now.'
 		;;
 		*)
